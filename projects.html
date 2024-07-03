@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Gurram Hema Preethi</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles specific to projects.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        header {
+            background-color: #5a308a;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #5a308a;
+        }
+
+        .projects-container {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .projects-intro {
+            margin-right: 20px;
+            text-align: left;
+        }
+
+        .projects-intro h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #5a308a;
+        }
+
+        .projects-intro p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap; /* Prevent items from wrapping */
+            flex-grow: 1; /* Allow this section to grow and fill space */
+        }
+
+        .project-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin: 0 10px;
+            width: 300px;
+            text-align: left; /* Align text to the left */
+        }
+
+        .project-item h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px; /* Adjusted margin for spacing */
+            color: #5a308a;
+        }
+
+        .project-item p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        footer {
+            background-color: #5a308a;
+            color: #e7f0ef;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects-container">
+        <div class="projects-intro">
+            <h1>My Projects</h1>
+            <p>Here are some of the projects I've passionately worked on as a web developer:</p>
+        </div>
+        <div class="project-list">
+            <div class="project-item">
+                <h2>Teddy and Tracy</h2>
+                <p>Developed using Strings in C</p>
+            </div>
+            <div class="project-item">
+                <h2>Movie Recommendation System</h2>
+                <p>Implemented using Node.js, React.js, JavaScript, HTML, and MongoDB</p>
+            </div>
+            <div class="project-item">
+                <h2>Online Book Store</h2>
+                <p>Built using Django and MySQL</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hema Preethi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
